@@ -9,7 +9,6 @@ version_control:
     #interactive true means no multi-threaded pulls from this git repo
     - simulation/mars/.*:
         github: georgeslabreche/mars
-        branch: connectors_fix
         interactive: true 
 
     - simulation/lib_manager:
