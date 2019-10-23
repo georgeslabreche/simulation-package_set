@@ -32,7 +32,6 @@ mars_package("simulation/mars/common/graphics/osg_points")
 mars_package("simulation/mars/plugins/TerrainPlugin")
 mars_package("simulation/mars/plugins/PythonMars")
 mars_package("simulation/mars/common/gui/data_broker_plotter2")
-mars_package("simulation/mars/plugins/connectors")
 cmake_package("simulation/mars_extensions/data_broker_graph_view")
 
 in_flavor 'stable' do
@@ -79,6 +78,7 @@ in_flavor 'master','stable' do
     mars_package("simulation/mars/plugins/connexion_plugin")
     mars_package("simulation/mars/plugins/VirtualJoystickPlugin")
     mars_package("simulation/mars/plugins/constraint_plugin")
+    mars_package("simulation/mars/plugins/connectors")
     
     mars_package("simulation/mars/doc",:import_package) do |pkg|
         pkg.doc_task do
